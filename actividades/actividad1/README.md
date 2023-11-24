@@ -1,16 +1,7 @@
-# actividad1
+# Inciar la Aplicación
 
-A new Flutter project.
+Para inciar la aplicación se puede utilizar el comando `flutter run`.
 
-## Getting Started
+# Explicación
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+La clase MyApp ubicada en el archivo main.dart llama a la clase MiWidget que se ubica en el archivo miwidget.dart, la clase que se encuentra en este archivo extiende a la clase StatelessWidget en el cual sobreescribimos mediante polimorfismo el método build.
