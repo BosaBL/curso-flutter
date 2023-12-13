@@ -12,6 +12,16 @@ class LoginPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
+          Container(
+            margin: const EdgeInsets.all(25),
+            child: const Text(
+              "Login",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold),
+            ),
+          ),
           const EmailInput(),
           const PassInput(),
           Container(
